@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int nilai,hasil;
+    cout <<"masukkan angka: ";
+    cin>>nilai;
+    
+    hasil=nilai%2;
+    cout <<"bilangan tersebut adalah bilangan ";
+    if (hasil==0)
+    cout<<"genap";
+    else
+    cout<<"ganjil";
+    return 0;
+}
