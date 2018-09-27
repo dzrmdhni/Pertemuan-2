@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int j,menit;
+    
+    cout <<"masukkan nilai jam: ";
+    cin>>j;
+    
+    menit=j*60;
+    cout <<"nilai jam dalam menit adalah: "<<menit;
+    return 0;
+}
