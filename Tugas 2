@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int detik,menit,jam,sisajam;
+    cout <<"masukkan detik: ";
+    cin>>detik;
+    
+    jam=detik/3600;
+    sisajam=detik%3600;
+    menit=sisajam/60;
+    detik=sisajam%60;
+    
+    cout <<"waktu adalah "<<jam<<"jam"<<menit<<"menit"<<detik<<"detik";
+    return 0;
+}
